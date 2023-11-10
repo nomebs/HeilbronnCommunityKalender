@@ -1,0 +1,9 @@
+.left-navbar{
+    float: left;
+}
+
+.separator {
+    border-right: 1px solid #ccc; /* Setze hier die gewünschte Farbe des Strichs ein */
+    height: 100vh; /* Die Höhe des Strichs sollte die volle Höhe des Bildschirms (viewport height) sein */
+    margin-right: 20px; /* Optional: Füge rechts einen Abstand zum Hauptinhalt hinzu */
+  }
