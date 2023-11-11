@@ -6,4 +6,38 @@
     border-right: 1px solid #ccc; /* Setze hier die gewünschte Farbe des Strichs ein */
     height: 100vh; /* Die Höhe des Strichs sollte die volle Höhe des Bildschirms (viewport height) sein */
     margin-right: 20px; /* Optional: Füge rechts einen Abstand zum Hauptinhalt hinzu */
+    background-color: rgb(207, 200, 200);
+  }
+
+  .dropdown {
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  .HNcommunitynavlogo img{
+    max-width: 10%;
+    height: auto;
   }
